@@ -1,0 +1,42 @@
+# --- Python -----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# --- Virtual environment -----------------------------------------------------
+venv/
+.venv/
+env/
+
+# --- Environment / secrets ----------------------------------------------------
+.env
+*.key
+
+# --- Vector store / data (generated) -------------------------------------
+data/vector_store/*
+!data/vector_store/.gitkeep
+
+# --- Logs ------------------------------------------------------------------
+logs/*.log
+logs/*
+!logs/.gitkeep
+
+# --- Testing / coverage --------------------------------------------------
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# --- IDE ---------------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+
+# --- OS ------------------------------------------------------------------
+.DS_Store
+Thumbs.db

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Policy Q&amp;A Assistant with Evidence</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <header>
+    <a class="brand" href="#">Policy Q&amp;A Assistant</a>
+    <nav><a href="#ask">Ask</a><a href="#documents">Documents</a></nav>
+    <button id="uploadOpen" class="button ghost">Upload policy</button>
+  </header>
+  <main>
+    <section class="hero" id="ask">
+      <p class="eyebrow">POLICY EVIDENCE</p>
+      <h1>Ask a policy question</h1>
+      <p class="lede">Answers are returned only when retrieved policy evidence supports them.</p>
+      <div class="ask-card">
+        <label for="question">Question</label>
+        <textarea id="question" placeholder="Enter a question about an uploaded policy."></textarea>
+        <div class="ask-actions"><span id="status">Ready to search policy evidence</span><button id="askButton" class="button">Ask</button></div>
+      </div>
+    </section>
+    <section id="result" class="result hidden">
+      <div class="result-main">
+        <p class="eyebrow" id="resultState">EVIDENCE-BACKED ANSWER</p>
+        <h2 id="answer"></h2>
+        <p id="refusal" class="refusal hidden"></p>
+        <div id="citations" class="citations"></div>
+        <div id="quotes" class="quotes"></div>
+      </div>
+      <aside class="evidence"><div class="evidence-title"><span>Retrieved evidence</span><button id="debugButton">View debug</button></div><div id="sources"></div></aside>
+    </section>
+    <section id="documents" class="policies"><div><p class="eyebrow">INGESTED DOCUMENTS</p><h2>Policy documents</h2></div><div id="documentsList" class="document-grid"><p>Loading documents...</p></div></section>
+  </main>
+  <dialog id="uploadDialog"><form method="dialog" id="uploadForm"><button type="button" class="close" data-close="uploadDialog">x</button><p class="eyebrow">DOCUMENT INGESTION</p><h2>Upload a policy document</h2><p>Supported formats: PDF, DOCX, Markdown, and text.</p><input id="file" type="file" accept=".pdf,.docx,.md,.txt" required><button class="button" type="submit">Ingest document</button><button id="askAfterUpload" class="button ghost hidden" type="button">Ask a question</button><p id="uploadStatus"></p></form></dialog>
+  <dialog id="debugDialog"><form method="dialog"><button type="button" class="close" data-close="debugDialog">x</button><p class="eyebrow">RETRIEVAL DEBUG</p><pre id="debugContent"></pre></form></dialog>
+  <dialog id="documentDialog"><div class="dialog-content document-dialog-content"><button type="button" class="close" data-close="documentDialog">x</button><p class="eyebrow">DOCUMENT CONTENT</p><h2 id="documentTitle"></h2><button id="editDocument" class="button ghost" type="button">Edit document</button><div id="documentContent"></div></div></dialog>
+  <dialog id="editDialog"><form method="dialog" id="editForm" class="dialog-content edit-dialog-content"><button type="button" class="close" data-close="editDialog">x</button><p class="eyebrow">AUTHORIZED POLICY UPDATE</p><h2>Update policy document</h2><p>Changes replace the stored policy evidence after authorization.</p><label for="editContent">Policy content</label><textarea id="editContent" required></textarea><label for="adminKey">Authorization key</label><input id="adminKey" type="password" autocomplete="off" required><button class="button" type="submit">Save policy update</button><p id="editStatus" class="refusal"></p></form></dialog>
+  <script src="/static/app.js"></script>
+</body>
+</html>

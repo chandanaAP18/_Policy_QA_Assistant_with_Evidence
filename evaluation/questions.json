@@ -1,0 +1,22 @@
+[
+  {"question":"How many annual leave days do full-time employees receive?","expected_answer_points":["20 working days"],"expected_documents":["Leave Policy"],"expected_section":"1 Annual Leave","should_answer":true},
+  {"question":"When is a medical certificate needed for sick leave?","expected_answer_points":["three consecutive working days"],"expected_documents":["Leave Policy"],"expected_section":"2 Sick Leave","should_answer":true},
+  {"question":"How much annual leave can carry forward?","expected_answer_points":["five days","manager approval"],"expected_documents":["Leave Policy"],"expected_section":"3 Carry Forward","should_answer":true},
+  {"question":"When do I need a receipt for expenses?","expected_answer_points":["above 25 USD"],"expected_documents":["Travel and Expense Policy"],"expected_section":"2 Expenses","should_answer":true},
+  {"question":"Which class can I book for a seven-hour flight?","expected_answer_points":["premium economy","manager approval"],"expected_documents":["Travel and Expense Policy"],"expected_section":"3 Air Travel","should_answer":true},
+  {"question":"How many remote days are allowed each week?","expected_answer_points":["two days","manager approval"],"expected_documents":["Remote Work Policy"],"expected_section":"1 Eligibility","should_answer":true},
+  {"question":"What is required on public Wi-Fi?","expected_answer_points":["VPN"],"expected_documents":["Information Security Policy"],"expected_section":"2 Public Networks","should_answer":true},
+  {"question":"What should I do after a security incident?","expected_answer_points":["report","immediately"],"expected_documents":["Information Security Policy"],"expected_section":"3 Incident Reporting","should_answer":true},
+  {"question":"What must a new employee complete in the first week?","expected_answer_points":["security awareness","acceptable-use"],"expected_documents":["Employee Onboarding Guide"],"expected_section":"1 First Week","should_answer":true},
+  {"question":"Can I install unapproved software?","expected_answer_points":["must not"],"expected_documents":["Acceptable Use Policy"],"expected_section":"2 Prohibited Use","should_answer":true},
+  {"question":"Can I work overseas and use public Wi-Fi?","expected_answer_points":["HR approval","VPN"],"expected_documents":["Remote Work Policy","Information Security Policy"],"expected_section":null,"should_answer":true},
+  {"question":"What do I need for remote work and company system access?","expected_answer_points":["manager approval","access-management portal"],"expected_documents":["Remote Work Policy","Employee Onboarding Guide"],"expected_section":null,"should_answer":true},
+  {"question":"What is required for travel and expense reimbursement?","expected_answer_points":["approval","receipt"],"expected_documents":["Travel and Expense Policy"],"expected_section":null,"should_answer":true},
+  {"question":"What security training and multi-factor authentication are required during onboarding?","expected_answer_points":["training","multi-factor authentication"],"expected_documents":["Employee Onboarding Guide","Information Security Policy"],"expected_section":null,"should_answer":true},
+  {"question":"Can I travel?","expected_answer_points":[],"expected_documents":[],"expected_section":null,"should_answer":false},
+  {"question":"What is the policy?","expected_answer_points":[],"expected_documents":[],"expected_section":null,"should_answer":false},
+  {"question":"Can I take time off?","expected_answer_points":[],"expected_documents":[],"expected_section":null,"should_answer":false},
+  {"question":"What employment law applies in Japan?","expected_answer_points":[],"expected_documents":[],"expected_section":null,"should_answer":false},
+  {"question":"What is my personal salary record?","expected_answer_points":[],"expected_documents":[],"expected_section":null,"should_answer":false},
+  {"question":"Can I make an exception for a policy not described?","expected_answer_points":[],"expected_documents":[],"expected_section":null,"should_answer":false}
+]

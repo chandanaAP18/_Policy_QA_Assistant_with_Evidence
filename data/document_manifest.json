@@ -1,0 +1,8 @@
+[
+  {"document_id":"leave-policy","file_name":"leave-policy.md","title":"Leave Policy","version":"1.0","effective_date":"2026-01-01","status":"active"},
+  {"document_id":"travel-expense-policy","file_name":"travel-expense-policy.md","title":"Travel and Expense Policy","version":"1.0","effective_date":"2026-01-01","status":"active"},
+  {"document_id":"remote-work-policy","file_name":"remote-work-policy.md","title":"Remote Work Policy","version":"1.0","effective_date":"2026-01-01","status":"active"},
+  {"document_id":"information-security-policy","file_name":"information-security-policy.md","title":"Information Security Policy","version":"1.0","effective_date":"2026-01-01","status":"active"},
+  {"document_id":"onboarding-guide","file_name":"onboarding-guide.md","title":"Employee Onboarding Guide","version":"1.0","effective_date":"2026-01-01","status":"active"},
+  {"document_id":"acceptable-use-policy","file_name":"acceptable-use-policy.md","title":"Acceptable Use Policy","version":"1.0","effective_date":"2026-01-01","status":"active"}
+]

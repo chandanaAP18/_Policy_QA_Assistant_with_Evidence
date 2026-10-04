@@ -1,0 +1,170 @@
+{
+  "total_questions": 20,
+  "retrieval_hit_rate": 1.0,
+  "citation_correctness": 1.0,
+  "supported_answer_accuracy": 1.0,
+  "unsupported_question_refusal_rate": 1.0,
+  "answers_containing_unsupported_claims": 0,
+  "results": [
+    {
+      "question": "How many annual leave days do full-time employees receive?",
+      "expected_support": true,
+      "actual_support": true,
+      "retrieval_hit": true,
+      "citation_correct": true,
+      "unsupported_claim": false
+    },
+    {
+      "question": "When is a medical certificate needed for sick leave?",
+      "expected_support": true,
+      "actual_support": true,
+      "retrieval_hit": true,
+      "citation_correct": true,
+      "unsupported_claim": false
+    },
+    {
+      "question": "How much annual leave can carry forward?",
+      "expected_support": true,
+      "actual_support": true,
+      "retrieval_hit": true,
+      "citation_correct": true,
+      "unsupported_claim": false
+    },
+    {
+      "question": "When do I need a receipt for expenses?",
+      "expected_support": true,
+      "actual_support": true,
+      "retrieval_hit": true,
+      "citation_correct": true,
+      "unsupported_claim": false
+    },
+    {
+      "question": "Which class can I book for a seven-hour flight?",
+      "expected_support": true,
+      "actual_support": true,
+      "retrieval_hit": true,
+      "citation_correct": true,
+      "unsupported_claim": false
+    },
+    {
+      "question": "How many remote days are allowed each week?",
+      "expected_support": true,
+      "actual_support": true,
+      "retrieval_hit": true,
+      "citation_correct": true,
+      "unsupported_claim": false
+    },
+    {
+      "question": "What is required on public Wi-Fi?",
+      "expected_support": true,
+      "actual_support": true,
+      "retrieval_hit": true,
+      "citation_correct": true,
+      "unsupported_claim": false
+    },
+    {
+      "question": "What should I do after a security incident?",
+      "expected_support": true,
+      "actual_support": true,
+      "retrieval_hit": true,
+      "citation_correct": true,
+      "unsupported_claim": false
+    },
+    {
+      "question": "What must a new employee complete in the first week?",
+      "expected_support": true,
+      "actual_support": true,
+      "retrieval_hit": true,
+      "citation_correct": true,
+      "unsupported_claim": false
+    },
+    {
+      "question": "Can I install unapproved software?",
+      "expected_support": true,
+      "actual_support": true,
+      "retrieval_hit": true,
+      "citation_correct": true,
+      "unsupported_claim": false
+    },
+    {
+      "question": "Can I work overseas and use public Wi-Fi?",
+      "expected_support": true,
+      "actual_support": true,
+      "retrieval_hit": true,
+      "citation_correct": true,
+      "unsupported_claim": false
+    },
+    {
+      "question": "What do I need for remote work and company system access?",
+      "expected_support": true,
+      "actual_support": true,
+      "retrieval_hit": true,
+      "citation_correct": true,
+      "unsupported_claim": false
+    },
+    {
+      "question": "What is required for travel and expense reimbursement?",
+      "expected_support": true,
+      "actual_support": true,
+      "retrieval_hit": true,
+      "citation_correct": true,
+      "unsupported_claim": false
+    },
+    {
+      "question": "What security training and multi-factor authentication are required during onboarding?",
+      "expected_support": true,
+      "actual_support": true,
+      "retrieval_hit": true,
+      "citation_correct": true,
+      "unsupported_claim": false
+    },
+    {
+      "question": "Can I travel?",
+      "expected_support": false,
+      "actual_support": false,
+      "retrieval_hit": null,
+      "citation_correct": true,
+      "unsupported_claim": false
+    },
+    {
+      "question": "What is the policy?",
+      "expected_support": false,
+      "actual_support": false,
+      "retrieval_hit": null,
+      "citation_correct": true,
+      "unsupported_claim": false
+    },
+    {
+      "question": "Can I take time off?",
+      "expected_support": false,
+      "actual_support": false,
+      "retrieval_hit": null,
+      "citation_correct": true,
+      "unsupported_claim": false
+    },
+    {
+      "question": "What employment law applies in Japan?",
+      "expected_support": false,
+      "actual_support": false,
+      "retrieval_hit": null,
+      "citation_correct": true,
+      "unsupported_claim": false
+    },
+    {
+      "question": "What is my personal salary record?",
+      "expected_support": false,
+      "actual_support": false,
+      "retrieval_hit": null,
+      "citation_correct": true,
+      "unsupported_claim": false
+    },
+    {
+      "question": "Can I make an exception for a policy not described?",
+      "expected_support": false,
+      "actual_support": false,
+      "retrieval_hit": null,
+      "citation_correct": true,
+      "unsupported_claim": false
+    }
+  ]
+}

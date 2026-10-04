@@ -1,0 +1,332 @@
+[
+  {
+    "question": "How many annual leave days do full-time employees receive?",
+    "document_scope": null,
+    "agent_mode": "extractive-fallback",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "82fb7d9c-6329-49f0-a986-70d22a501595",
+        "document": "Leave Policy",
+        "file_name": "leave-policy.md",
+        "section": "1 Annual Leave",
+        "page": null,
+        "text": "1 Annual Leave\nFull-time employees receive 20 working days of paid annual leave each calendar year. Requests must be submitted in the leave system at least five working days before the first day of leave.",
+        "score": 0.522
+      },
+      {
+        "chunk_id": "bcdb91ab-13c9-474d-8c84-a9dc83df60b9",
+        "document": "Leave Policy",
+        "file_name": "leave-policy.md",
+        "section": "3 Carry Forward",
+        "page": null,
+        "text": "3 Carry Forward\nUp to five unused annual leave days may be carried into the next calendar year with manager approval.",
+        "score": 0.264
+      },
+      {
+        "chunk_id": "790eaf81-7f56-4378-81f7-64dbfe436ae4",
+        "document": "Leave Policy",
+        "file_name": "leave-policy.md",
+        "section": "2 Sick Leave",
+        "page": null,
+        "text": "2 Sick Leave\nEmployees may take up to 10 paid sick days each calendar year. A medical certificate is required when an absence lasts three consecutive working days or more.",
+        "score": 0.217
+      },
+      {
+        "chunk_id": "cb76dbcf-bfb5-458d-aeb2-4147ce21584d",
+        "document": "Remote Work Policy",
+        "file_name": "remote-work-policy.md",
+        "section": "1 Eligibility",
+        "page": null,
+        "text": "1 Eligibility\nEligible employees may work remotely up to two days each week with manager approval. Employees must record their remote-work schedule in the team calendar.",
+        "score": 0.214
+      },
+      {
+        "chunk_id": "27ecda98-edff-4819-a34c-9659c4d8c7c8",
+        "document": "Employee Onboarding Guide",
+        "file_name": "onboarding-guide.md",
+        "section": "1 First Week",
+        "page": null,
+        "text": "1 First Week\nNew employees must complete security awareness training and acknowledge the acceptable-use policy within their first five working days.",
+        "score": 0.179
+      },
+      {
+        "chunk_id": "5e946f22-34f6-4828-8b26-03cfb1820f03",
+        "document": "Travel and Expense Policy",
+        "file_name": "travel-expense-policy.md",
+        "section": "2 Expenses",
+        "page": null,
+        "text": "2 Expenses\nOriginal itemized receipts are required for expenses above 25 USD. Expense claims must be submitted within 30 days after travel ends.",
+        "score": 0.17
+      },
+      {
+        "chunk_id": "bc90b63d-3802-4315-add9-a1bd8ba17174",
+        "document": "Information Security Policy",
+        "file_name": "information-security-policy.md",
+        "section": "2 Public Networks",
+        "page": null,
+        "text": "2 Public Networks\nEmployees using public Wi-Fi must connect through the company VPN before accessing company systems or data.",
+        "score": 0.124
+      },
+      {
+        "chunk_id": "6ccac5bf-4706-4c1d-8d64-2d67ce582363",
+        "document": "Information Security Policy",
+        "file_name": "information-security-policy.md",
+        "section": "3 Incident Reporting",
+        "page": null,
+        "text": "3 Incident Reporting\nSuspected security incidents must be reported to the Security Team immediately through the incident portal.",
+        "score": 0.124
+      },
+      {
+        "chunk_id": "59bb1a99-1b1c-4250-99a6-d242b0e878f5",
+        "document": "Information Security Policy",
+        "file_name": "information-security-policy.md",
+        "section": "1 Passwords",
+        "page": null,
+        "text": "1 Passwords\nEmployees must use unique passwords and multi-factor authentication for company systems. Passwords must not be shared with any person.",
+        "score": 0.115
+      },
+      {
+        "chunk_id": "0e7c1318-4c33-4f55-9877-077edb73518c",
+        "document": "Travel and Expense Policy",
+        "file_name": "travel-expense-policy.md",
+        "section": "1 Travel Approval",
+        "page": null,
+        "text": "1 Travel Approval\nEmployees must obtain manager approval before booking business travel. International travel also requires department-head approval.",
+        "score": 0.096
+      }
+    ],
+    "evidence_coverage": 1.0,
+    "final_context": "1 Annual Leave\nFull-time employees receive 20 working days of paid annual leave each calendar year. Requests must be submitted in the leave system at least five working days before the first day of leave.\n\n3 Carry Forward\nUp to five unused annual leave days may be carried into the next calendar year with manager approval.\n\n2 Sick Leave\nEmployees may take up to 10 paid sick days each calendar year. A medical certificate is required when an absence lasts three consecutive working days or more.\n\n1 Eligibility\nEligible employees may work remotely up to two days each week with manager approval. Employees must record their remote-work schedule in the team calendar.\n\n1 First Week\nNew employees must complete security awareness training and acknowledge the acceptable-use policy within their first five working days.\n\n2 Expenses\nOriginal itemized receipts are required for expenses above 25 USD. Expense claims must be submitted within 30 days after travel ends.\n\n2 Public Networks\nEmployees using public Wi-Fi must connect through the company VPN before accessing company systems or data.\n\n3 Incident Reporting\nSuspected security incidents must be reported to the Security Team immediately through the incident portal.\n\n1 Passwords\nEmployees must use unique passwords and multi-factor authentication for company systems. Passwords must not be shared with any person.\n\n1 Travel Approval\nEmployees must obtain manager approval before booking business travel. International travel also requires department-head approval.",
+    "final_answer": "Full-time employees receive 20 working days of paid annual leave each calendar year. Eligible employees may work remotely up to two days each week with manager approval.",
+    "cited_sources": [
+      {
+        "document": "Leave Policy",
+        "file_name": "leave-policy.md",
+        "section": "1 Annual Leave",
+        "page": null
+      },
+      {
+        "document": "Remote Work Policy",
+        "file_name": "remote-work-policy.md",
+        "section": "1 Eligibility",
+        "page": null
+      }
+    ]
+  },
+  {
+    "question": "When is a medical certificate needed for sick leave?",
+    "document_scope": null,
+    "agent_mode": "extractive-fallback",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "790eaf81-7f56-4378-81f7-64dbfe436ae4",
+        "document": "Leave Policy",
+        "file_name": "leave-policy.md",
+        "section": "2 Sick Leave",
+        "page": null,
+        "text": "2 Sick Leave\nEmployees may take up to 10 paid sick days each calendar year. A medical certificate is required when an absence lasts three consecutive working days or more.",
+        "score": 0.457
+      },
+      {
+        "chunk_id": "1d7755cb-7f2c-4471-806b-0fb1e13bde94",
+        "document": "Travel and Expense Policy",
+        "file_name": "travel-expense-policy.md",
+        "section": "3 Air Travel",
+        "page": null,
+        "text": "3 Air Travel\nEconomy class is required for flights under six hours. Premium economy may be booked for flights of six hours or more when approved by a manager.",
+        "score": 0.32
+      },
+      {
+        "chunk_id": "246aace6-65d3-4b31-8a6d-1ba41109cb28",
+        "document": "Remote Work Policy",
+        "file_name": "remote-work-policy.md",
+        "section": "3 Equipment",
+        "page": null,
+        "text": "3 Equipment\nThe company provides a standard laptop. Employees are responsible for a safe and private workspace.",
+        "score": 0.229
+      },
+      {
+        "chunk_id": "b0d5cc24-49e2-4316-a938-6173d82295ca",
+        "document": "Acceptable Use Policy",
+        "file_name": "acceptable-use-policy.md",
+        "section": "1 Company Systems",
+        "page": null,
+        "text": "1 Company Systems\nCompany systems must be used primarily for business purposes. Limited personal use is permitted when it does not interfere with work or create security risks.",
+        "score": 0.171
+      },
+      {
+        "chunk_id": "82fb7d9c-6329-49f0-a986-70d22a501595",
+        "document": "Leave Policy",
+        "file_name": "leave-policy.md",
+        "section": "1 Annual Leave",
+        "page": null,
+        "text": "1 Annual Leave\nFull-time employees receive 20 working days of paid annual leave each calendar year. Requests must be submitted in the leave system at least five working days before the first day of leave.",
+        "score": 0.169
+      },
+      {
+        "chunk_id": "60b0a379-64e8-4ffb-8867-58ea46f7d93e",
+        "document": "Employee Onboarding Guide",
+        "file_name": "onboarding-guide.md",
+        "section": "2 Access",
+        "page": null,
+        "text": "2 Access\nManagers must request system access through the access-management portal. Access is granted after required training is complete.",
+        "score": 0.114
+      },
+      {
+        "chunk_id": "306bccd4-f46b-4c4d-9a9e-76dae1c1af09",
+        "document": "Leave Policy",
+        "file_name": "leave-policy.md",
+        "section": "Introduction",
+        "page": null,
+        "text": "# Leave Policy\nVersion: 1.0\nEffective Date: 2026-01-01",
+        "score": 0.089
+      },
+      {
+        "chunk_id": "0efd3f0b-4c6a-4622-a0a3-918986bfe4ca",
+        "document": "Acceptable Use Policy",
+        "file_name": "acceptable-use-policy.md",
+        "section": "2 Prohibited Use",
+        "page": null,
+        "text": "2 Prohibited Use\nEmployees must not install unapproved software or use company systems for unlawful, discriminatory, or harassing activity.",
+        "score": 0.07
+      },
+      {
+        "chunk_id": "bcdb91ab-13c9-474d-8c84-a9dc83df60b9",
+        "document": "Leave Policy",
+        "file_name": "leave-policy.md",
+        "section": "3 Carry Forward",
+        "page": null,
+        "text": "3 Carry Forward\nUp to five unused annual leave days may be carried into the next calendar year with manager approval.",
+        "score": 0.07
+      },
+      {
+        "chunk_id": "59bb1a99-1b1c-4250-99a6-d242b0e878f5",
+        "document": "Information Security Policy",
+        "file_name": "information-security-policy.md",
+        "section": "1 Passwords",
+        "page": null,
+        "text": "1 Passwords\nEmployees must use unique passwords and multi-factor authentication for company systems. Passwords must not be shared with any person.",
+        "score": 0.061
+      }
+    ],
+    "evidence_coverage": 0.8,
+    "final_context": "2 Sick Leave\nEmployees may take up to 10 paid sick days each calendar year. A medical certificate is required when an absence lasts three consecutive working days or more.\n\n3 Air Travel\nEconomy class is required for flights under six hours. Premium economy may be booked for flights of six hours or more when approved by a manager.\n\n3 Equipment\nThe company provides a standard laptop. Employees are responsible for a safe and private workspace.\n\n1 Company Systems\nCompany systems must be used primarily for business purposes. Limited personal use is permitted when it does not interfere with work or create security risks.\n\n1 Annual Leave\nFull-time employees receive 20 working days of paid annual leave each calendar year. Requests must be submitted in the leave system at least five working days before the first day of leave.\n\n2 Access\nManagers must request system access through the access-management portal. Access is granted after required training is complete.\n\n# Leave Policy\nVersion: 1.0\nEffective Date: 2026-01-01\n\n2 Prohibited Use\nEmployees must not install unapproved software or use company systems for unlawful, discriminatory, or harassing activity.\n\n3 Carry Forward\nUp to five unused annual leave days may be carried into the next calendar year with manager approval.\n\n1 Passwords\nEmployees must use unique passwords and multi-factor authentication for company systems. Passwords must not be shared with any person.",
+    "final_answer": "A medical certificate is required when an absence lasts three consecutive working days or more.",
+    "cited_sources": [
+      {
+        "document": "Leave Policy",
+        "file_name": "leave-policy.md",
+        "section": "2 Sick Leave",
+        "page": null
+      }
+    ]
+  },
+  {
+    "question": "How much annual leave can carry forward?",
+    "document_scope": null,
+    "agent_mode": "extractive-fallback",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "bcdb91ab-13c9-474d-8c84-a9dc83df60b9",
+        "document": "Leave Policy",
+        "file_name": "leave-policy.md",
+        "section": "3 Carry Forward",
+        "page": null,
+        "text": "3 Carry Forward\nUp to five unused annual leave days may be carried into the next calendar year with manager approval.",
+        "score": 0.278
+      },
+      {
+        "chunk_id": "82fb7d9c-6329-49f0-a986-70d22a501595",
+        "document": "Leave Policy",
+        "file_name": "leave-policy.md",
+        "section": "1 Annual Leave",
+        "page": null,
+        "text": "1 Annual Leave\nFull-time employees receive 20 working days of paid annual leave each calendar year. Requests must be submitted in the leave system at least five working days before the first day of leave.",
+        "score": 0.254
+      },
+      {
+        "chunk_id": "790eaf81-7f56-4378-81f7-64dbfe436ae4",
+        "document": "Leave Policy",
+        "file_name": "leave-policy.md",
+        "section": "2 Sick Leave",
+        "page": null,
+        "text": "2 Sick Leave\nEmployees may take up to 10 paid sick days each calendar year. A medical certificate is required when an absence lasts three consecutive working days or more.",
+        "score": 0.114
+      },
+      {
+        "chunk_id": "306bccd4-f46b-4c4d-9a9e-76dae1c1af09",
+        "document": "Leave Policy",
+        "file_name": "leave-policy.md",
+        "section": "Introduction",
+        "page": null,
+        "text": "# Leave Policy\nVersion: 1.0\nEffective Date: 2026-01-01",
+        "score": 0.089
+      },
+      {
+        "chunk_id": "bc90b63d-3802-4315-add9-a1bd8ba17174",
+        "document": "Information Security Policy",
+        "file_name": "information-security-policy.md",
+        "section": "2 Public Networks",
+        "page": null,
+        "text": "2 Public Networks\nEmployees using public Wi-Fi must connect through the company VPN before accessing company systems or data.",
+        "score": 0.065
+      },
+      {
+        "chunk_id": "59bb1a99-1b1c-4250-99a6-d242b0e878f5",
+        "document": "Information Security Policy",
+        "file_name": "information-security-policy.md",
+        "section": "1 Passwords",
+        "page": null,
+        "text": "1 Passwords\nEmployees must use unique passwords and multi-factor authentication for company systems. Passwords must not be shared with any person.",
+        "score": 0.061
+      },
+      {
+        "chunk_id": "938486c3-f369-4a4b-b1b0-744feb08907c",
+        "document": "Remote Work Policy",
+        "file_name": "remote-work-policy.md",
+        "section": "2 Work Location",
+        "page": null,
+        "text": "2 Work Location\nRemote work must be performed from an approved location within the employee's country of employment. Cross-border remote work requires written HR approval.",
+        "score": 0.048
+      },
+      {
+        "chunk_id": "cc99d33f-0ea5-4d49-99f0-ff64c16b640b",
+        "document": "Acceptable Use Policy",
+        "file_name": "acceptable-use-policy.md",
+        "section": "Introduction",
+        "page": null,
+        "text": "# Acceptable Use Policy\nVersion: 1.0\nEffective Date: 2026-01-01",
+        "score": 0.0
+      },
+      {
+        "chunk_id": "b0d5cc24-49e2-4316-a938-6173d82295ca",
+        "document": "Acceptable Use Policy",
+        "file_name": "acceptable-use-policy.md",
+        "section": "1 Company Systems",
+        "page": null,
+        "text": "1 Company Systems\nCompany systems must be used primarily for business purposes. Limited personal use is permitted when it does not interfere with work or create security risks.",
+        "score": 0.0
+      },
+      {
+        "chunk_id": "0efd3f0b-4c6a-4622-a0a3-918986bfe4ca",
+        "document": "Acceptable Use Policy",
+        "file_name": "acceptable-use-policy.md",
+        "section": "2 Prohibited Use",
+        "page": null,
+        "text": "2 Prohibited Use\nEmployees must not install unapproved software or use company systems for unlawful, discriminatory, or harassing activity.",
+        "score": 0.0
+      }
+    ],
+    "evidence_coverage": 1.0,
+    "final_context": "3 Carry Forward\nUp to five unused annual leave days may be carried into the next calendar year with manager approval.\n\n1 Annual Leave\nFull-time employees receive 20 working days of paid annual leave each calendar year. Requests must be submitted in the leave system at least five working days before the first day of leave.\n\n2 Sick Leave\nEmployees may take up to 10 paid sick days each calendar year. A medical certificate is required when an absence lasts three consecutive working days or more.\n\n# Leave Policy\nVersion: 1.0\nEffective Date: 2026-01-01\n\n2 Public Networks\nEmployees using public Wi-Fi must connect through the company VPN before accessing company systems or data.\n\n1 Passwords\nEmployees must use unique passwords and multi-factor authentication for company systems. Passwords must not be shared with any person.\n\n2 Work Location\nRemote work must be performed from an approved location within the employee's country of employment. Cross-border remote work requires written HR approval.\n\n# Acceptable Use Policy\nVersion: 1.0\nEffective Date: 2026-01-01\n\n1 Company Systems\nCompany systems must be used primarily for business purposes. Limited personal use is permitted when it does not interfere with work or create security risks.\n\n2 Prohibited Use\nEmployees must not install unapproved software or use company systems for unlawful, discriminatory, or harassing activity.",
+    "final_answer": "Up to five unused annual leave days may be carried into the next calendar year with manager approval.",
+    "cited_sources": [
+      {
+        "document": "Leave Policy",
+        "file_name": "leave-policy.md",
+        "section": "3 Carry Forward",
+        "page": null
+      }
+    ]
+  }
+]
